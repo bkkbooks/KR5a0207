@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0207/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5a0207/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 五顯靈觀大帝燈儀
+  date: '2015-08-28 23:40:55.067762'
+  source:
+    repository: kanripo
+    path: KR5a0207
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0207_000-ZTDZ.yaml, hash: 'sha256:509e02a71fa07d58a4acdfdf40884b9fcaffac41bab3047962e767ca3a30b57c'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0207_000-ZTDZ.markers.yaml, hash: 'sha256:20e624c270cc9da3ac9e9da14a61ef56fe497b508e489c3a93066e40d9372400'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0207_SJB_000-030576c
+    span:
+    - body
+    - 0
+    - 1307
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:7f41833e0a2d6189ee6bc04e9795d9d51fe5951bbe98a4deb082d4e95e01fa34
